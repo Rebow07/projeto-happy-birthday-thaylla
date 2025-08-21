@@ -10,7 +10,7 @@ import {
   Paper,
 } from "../CountDay/countStyle";
 
-import PictureJa from "../../assests/img/Design sem nome.mp4";
+import PictureJa from "../../assests/img/Video.mp4";
 
 const CountDay = () => {
   const [tempoJuntos, setTempoJuntos] = useState({
