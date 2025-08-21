@@ -6,11 +6,11 @@ import {
     Logo,
     H6,
     HoverContent
-  } from "./giftboxStyle";
+} from "./giftboxStyle";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faTruckFast } from '@fortawesome/free-solid-svg-icons'
-  
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+ 
 const GiftBoxComponent = () => {
 
   return (
@@ -25,29 +25,29 @@ const GiftBoxComponent = () => {
           <Logo>De quem te ama</Logo>
           <H6>Clique para acompanhar.</H6>
           <HoverContent>
-              <p className="sent">
+            <div className="sent">
                 <FontAwesomeIcon className="iconCheck" icon={faCheck} /> 
                 <p className="text-p">
                   Feliz aniversário, Thaylla!!❤
                   Que Deus derrame sempre as ricas bênçãos dos céus sobre sua vida e realize todos os seus sonhos! 
                   Obrigada por todo apoio e carinho sempre, que sua vida seja repleta de alegrias e amor! 
-                  Você é muito especial pra nós, te amamos🥰  
+                  Você é muito especial pra nós, te amamos🥰   
                   <span style={{fontWeight: 'bold'}}>Duda Lino</span>
                 </p>
-              </p>
+            </div>
 
-              <p className="sent">
+            <div className="sent">
                 <FontAwesomeIcon className="iconCheck" icon={faCheck} />
                 <p className="text-p">
                   Parabéns, Thaylla, minha mamãe de outra mãe! Que Deus continue abençoando muito a sua vida.
                   Estou passando aqui para te parabenizar por ser essa pessoa incrível que é, que sempre me acolheu quando precisei, 
                   esteve comigo nos momentos difíceis, puxando minha orelha e me incentivando a aceitar Jesus. 
-                  Só quero te agradecer por ser essa pessoa tão especial. Aproveite o seu dia! 🥰  
+                  Só quero te agradecer por ser essa pessoa tão especial. Aproveite o seu dia! 🥰   
                   <span style={{fontWeight: 'bold'}}>Diogo Evaldis</span>
                 </p>
-              </p>
+            </div>
 
-              <p className="sent">
+            <div className="sent">
                 <FontAwesomeIcon className="iconCheck" icon={faCheck} />
                 <p className="text-p">
                   Minha gêmea ♥ 
@@ -64,22 +64,34 @@ const GiftBoxComponent = () => {
                   🙌🏻♥ Então não esqueça que sua amizade é uma dádiva !
                   Que vc é linda, e como eu sempre digo: 
                   "seu marido já agradeceu a Deus hoje por ter vc como esposa ?"
-                  Espero que sim, pq vc com certeza vale mais do que rubis ♥ te amo Thay  
+                  Espero que sim, pq vc com certeza vale mais do que rubis ♥ te amo Thay   
                   <span style={{fontWeight: 'bold'}}>Julia Dias</span>
                 </p>
-              </p>
-            <p className="sent">
-              <FontAwesomeIcon className="iconCheck" icon={faCheck} />
-              <p className="text-p">
-                  Parabéns Thaylla mtas felicidades!!! Desejamos a vc  o melhor de Deus 
-			            e sei que  o melhor Dele nos surpreende pq é mais do que imaginamos. 🎂👏🏽
-                  Que a Graça e o Amor de Jesus  transborde  em ti e na sua família sempre!!!🙏🏼🥰
+            </div>
+            
+            <div className="sent">
+                <FontAwesomeIcon className="iconCheck" icon={faCheck} />
+                <p className="text-p">
+                  Parabéns Thaylla mtas felicidades!!! Desejamos a vc o melhor de Deus 
+                  e sei que o melhor Dele nos surpreende pq é mais do que imaginamos. 🎂👏🏽
+                  Que a Graça e o Amor de Jesus transborde em ti e na sua família sempre!!!🙏🏼🥰
                   Beijos e Abraços da nossa Família 
                   <span style={{fontWeight: 'bold'}}> Rafa, Vivi e Manu</span>
-              </p>
-              
-            </p>        
+                </p>
+            </div>
             
+            <div className="sent">
+              <FontAwesomeIcon className="iconCheck" icon={faCheck} />
+              <p className="text-p">
+                Feliz aniversário meu amor, que o papai do céu te abençoe e te guarde 
+                sempre e te projeta como a menininha dos olhos dele. Thay vc tem o 
+                brilho do espírito santo em seus olhos, o seu coração bondoso e de 
+                mãezinha que sempre me cuidou e acolheu em seus braços. 
+                Saiba que eu te amo demais e sempre vou estar aqui do seu lado 
+                te aplaudindo e apoiando, te amo infinitamente! ❤🎉🎉 
+                <span style={{fontWeight: 'bold'}}>Isa</span>
+              </p>
+            </div>
           </HoverContent>
         </Content>
       </Card>

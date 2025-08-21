@@ -10,8 +10,6 @@ import {
   Paper,
 } from "../CountDay/countStyle";
 
-import PictureJa from "../../assests/img/Video.mp4";
-
 const CountDay = () => {
   const [tempoJuntos, setTempoJuntos] = useState({
     dias: 0,
@@ -43,24 +41,25 @@ const CountDay = () => {
     <ContainerCount data-aos="fade-up">
       <WidthScreen>
         <Paper>
-          <video
-            controls
-            loop
-            muted
-            playsInline
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          >
-            <source src={PictureJa} type="video/mp4" />
-            Seu navegador não suporta o vídeo.
-          </video>        
-          </Paper>
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/CbcyOhHxuxs"
+            title="feliz aniversario"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            style={{ borderRadius: "12px" }}
+          ></iframe>
+        </Paper>
 
         <Music
           src="https://open.spotify.com/embed/track/6mElqFFbwo90BrQDjHndnr"
           width="100%"
           height="200"
           allow="encrypted-media"
-        ></Music>        
+        ></Music>
 
         <Count>
           <TitleCount>Nosso presente</TitleCount>
